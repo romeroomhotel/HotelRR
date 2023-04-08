@@ -1,14 +1,18 @@
 import React from 'react'
 import "./Homepage.css"
+import HotelNav from '../../components/Navbar/HotelNav';
+import Carousel from '../../components/Carousel/Carousel';
+import { SliderData } from '../../components/Carousel/CarouselData';
+import PresentationImage from '../../components/PresentationImage/PresentationImage';
 
 const HomePage = () => {
+
     return (
-        <div>
-            <div>navbar component</div>
-            <div>hotel carousel</div>
-            <div>banner booking sale</div>
-            <div>footer</div>
-        </div>
+        <>
+            <HotelNav />
+            <PresentationImage />
+            <Carousel slides={SliderData} />
+        </>
     )
 }
 
