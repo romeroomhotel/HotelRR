@@ -1,14 +1,15 @@
 import React from 'react'
 import "./Bookingpage.css"
+import FooterHotel from '../../components/Footer/FooterHotel';
+import PrenotationBanner from '../../components/PrenotationBanner/PrenotationBanner';
+import PresentationImage from '../../components/PresentationImage/PresentationImage';
 
 const BookNowPage = () => {
     return (
         <div>
-            <div>Book now page</div>
-            <div>navbar component</div>
-            <div>hotel carousel</div>
-            <div>banner booking sale</div>
-            <div>footer</div>
+            <PresentationImage />
+            <PrenotationBanner />
+            <FooterHotel />
         </div>
     )
 }

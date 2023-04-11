@@ -1,14 +1,17 @@
 import React from 'react'
 import "./Hotelinfo.css"
+import PresentationImage from '../../components/PresentationImage/PresentationImage';
+import PrenotationBanner from '../../components/PrenotationBanner/PrenotationBanner';
+import FooterHotel from '../../components/Footer/FooterHotel';
+import TabWrapper from '../../components/HotelTabWrapper/HotelTabWrapper';
 
 const HotelInfo = () => {
   return (
     <div>
-      <div>Hotelinfo</div>
-      <div>navbar component</div>
-      <div>hotel carousel</div>
-      <div>banner booking sale</div>
-      <div>footer</div>
+      <PresentationImage />
+      <TabWrapper />
+      <PrenotationBanner />
+      <FooterHotel />
     </div>
   )
 }

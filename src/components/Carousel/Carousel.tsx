@@ -26,7 +26,7 @@ const Carousel: React.FC<SlideProps> = ({ slides }) => {
     }
 
     return (
-        <>
+        <div style={{ backgroundColor: "#fbe0b1", padding: "3rem" }}>
             <Slider>
                 {SliderData.map((slide, index) => {
                     return (
@@ -40,7 +40,7 @@ const Carousel: React.FC<SlideProps> = ({ slides }) => {
                     )
                 })}
             </Slider>
-        </>
+        </div>
     )
 }
 

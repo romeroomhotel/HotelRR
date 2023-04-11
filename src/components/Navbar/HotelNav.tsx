@@ -10,16 +10,16 @@ const HotelNav = () => {
             <Stack style={{ justifyContent: "center", alignItems: "center", background: "#937251", padding: "1.3em 0" }}>
                 <Stack style={{ justifyContent: "center", alignItems: "center", gap: "1rem", paddingRight: "1rem" }}>
                     <FontAwesomeIcon icon={faHotel} size="2xl" style={{ color: "#fbe0b1" }} />
-                    <HLink to={""} className='hotelName' style={{ color: "#fbe0b1" }}>Rome room hotel</HLink>
+                    <HLink to={""} className='hotelName' style={{ color: "#fbe0b1" }}>Roma room hotel</HLink>
                 </Stack>
 
                 <NavList>
-                    <HLink to={""}>homepage</HLink>
-                    <HLink to={""}>hotel info</HLink>
-                    <HLink to={""}>rooms</HLink>
-                    <HLink to={""}>other info</HLink>
-                    <HLink to={""}>around</HLink>
-                    <HLink to={""}>book now!</HLink>
+                    <HLink to={"/"}>homepage</HLink>
+                    <HLink to={"/HotelInfo"}>hotel info</HLink>
+                    <HLink to={"/Rooms"}>rooms</HLink>
+                    <HLink to={"/Info-utils"}>other info</HLink>
+                    <HLink to={"/Near-places"}>around</HLink>
+                    <HLink to={"/Booknow"}>book now!</HLink>
                 </NavList>
             </Stack>
         </>
