@@ -12,11 +12,11 @@ export default function FooterHotel() {
             < Stack style={{
                 justifyContent: "space-around", alignItems: "center"
             }}>
-                <Carousel slides={SliderData} />
-                <Stack style={{ flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+                <Stack style={{ flexDirection: "column", justifyContent: "center", alignItems: "center", width:"30rem" }}>
                     <h6>IL NOSTRO HOTEL</h6>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, eveniet qui aliquam dicta provident amet nostrum repudiandae corrupti voluptatibus sint esse autem perferendis consequuntur, blanditiis quos dolorem iste facere. Delectus.</p>
                 </Stack>
+                <Carousel slides={SliderData} />
             </Stack >
             <Stack style={{ justifyContent: "space-around", alignItems: "center", backgroundColor: "#937251", padding: "0.5rem 0" }}>
                 <p>© COPYRIGHT ROMA ROOM HOTEL</p>

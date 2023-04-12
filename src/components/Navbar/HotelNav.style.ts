@@ -24,5 +24,4 @@ export const HLink = styled(Link)`
     &.hotelName:hover{
         box-shadow: unset;
     }
-
 `
