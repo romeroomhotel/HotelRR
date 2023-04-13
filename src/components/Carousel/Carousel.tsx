@@ -26,21 +26,23 @@ const Carousel: React.FC<SlideProps> = ({ slides }) => {
     }
 
     return (
-        <div style={{ backgroundColor: "#fbe0b1", padding: "3rem" }}>
-            <Slider>
-                {SliderData.map((slide, index) => {
-                    return (
-                        <div className={index === current ? 'slide active' : 'slide'} key={index} style={{ position: "relative" }}>
-                            <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-                            <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-                            {index === current && (
-                                <img src={slide.image} alt="NONE" className="image" />
-                            )}
-                        </div>
-                    )
-                })}
+        <div>
+            <Slider >
+                {
+                    SliderData.map((slide, index) => {
+                        return (
+                            <div className={index === current ? 'slide active' : 'slide'} key={index} style={{ position: "relative" }}>
+                                <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
+                                <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+                                {index === current && (
+                                    <img src={slide.image} alt="NONE" className="image" />
+                                )}
+                            </div>
+                        )
+                    })
+                }
             </Slider>
-        </div>
+        </div >
     )
 }
 

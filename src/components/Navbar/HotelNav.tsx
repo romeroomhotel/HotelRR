@@ -7,7 +7,7 @@ import { faHotel } from '@fortawesome/free-solid-svg-icons';
 const HotelNav = () => {
     return (
         <>
-            <Stack style={{ justifyContent: "center", alignItems: "center", background: "#937251", padding: "1.3em 0" }}>
+            <Stack style={{ justifyContent: "center", alignItems: "center", background: "#937251", padding: "0.5rem 0" }}>
                 <Stack style={{ justifyContent: "center", alignItems: "center", gap: "1rem", paddingRight: "1rem" }}>
                     <FontAwesomeIcon icon={faHotel} size="2xl" style={{ color: "#fbe0b1" }} />
                     <HLink to={""} className='hotelName' style={{ color: "#fbe0b1" }}>Roma room hotel</HLink>
