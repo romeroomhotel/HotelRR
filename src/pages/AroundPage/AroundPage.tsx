@@ -2,12 +2,12 @@ import React from 'react'
 import "./AroundPage.css"
 import FooterHotel from '../../components/Footer/FooterHotel';
 import PrenotationBanner from '../../components/PrenotationBanner/PrenotationBanner';
-import PresentationImage from '../../components/PresentationImage/PresentationImage';
+import ImageContainer from '../../components/ImageContainer/ImageContainer';
 
 const AroundPage = () => {
     return (
         <div>
-            <PresentationImage />
+            <ImageContainer bgImg={''} bigTitle={''} subTitle={''}></ImageContainer>
             <PrenotationBanner />
             <FooterHotel />
         </div>

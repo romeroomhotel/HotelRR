@@ -4,7 +4,7 @@ import Homepage from './pages/Homepage/Homepage';
 import Hotelinfo from './pages/HotelInfoPage/Hotelinfo';
 import RoomsPage from './pages/RoomsPage/RoomsPage';
 import InfoUtilsPage from './pages/InfoUtilsPage/InfoUtilPage';
-import NearPlacesPage from './pages/NearPlacesPage/AroundPage';
+import NearPlacesPage from './pages/AroundPage/AroundPage';
 import BookNowPage from './pages/BookingPage/Bookingpage';
 import HotelNav from './components/Navbar/HotelNav';
 

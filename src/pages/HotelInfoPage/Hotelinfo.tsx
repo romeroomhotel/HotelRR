@@ -1,18 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Hotelinfo.css"
-import PresentationImage from '../../components/PresentationImage/PresentationImage';
 import PrenotationBanner from '../../components/PrenotationBanner/PrenotationBanner';
 import FooterHotel from '../../components/Footer/FooterHotel';
-import TabWrapper from '../../components/HotelTabWrapper/HotelTabWrapper';
+import Tab from '../../components/Tab/Tab';
+import ImageContainer from '../../components/ImageContainer/ImageContainer';
 
 const HotelInfo = () => {
+
+  const hotelInfoTab = [
+    {
+      tabTitle: "COME RAGGIUNGERCI",
+      tabId: "tab1",
+      renderTabComponent: (<p>BONA1</p>)
+    },
+    {
+      tabTitle: "SERVIZI",
+      tabId: "tab2",
+      renderTabComponent: (<p>BONA2</p>)
+    },
+    {
+      tabTitle: "CONTATTI",
+      tabId: "tab3",
+      renderTabComponent: (<p>BONA3</p>)
+    }
+  ]
+
   return (
-    <div>
-      <PresentationImage />
-      <TabWrapper />
+    <>
+      <ImageContainer bgImg={''} bigTitle={''} subTitle={''}></ImageContainer>
+      <Tab arrayTabs={hotelInfoTab}></Tab>
       <PrenotationBanner />
       <FooterHotel />
-    </div>
+    </>
   )
 }
 

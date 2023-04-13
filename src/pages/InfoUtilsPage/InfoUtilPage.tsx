@@ -2,14 +2,28 @@ import React from 'react'
 import "./InfoUtilPage.css"
 import FooterHotel from '../../components/Footer/FooterHotel';
 import PrenotationBanner from '../../components/PrenotationBanner/PrenotationBanner';
-import PresentationImage from '../../components/PresentationImage/PresentationImage';
-import InfoTabWrapper from '../../components/InfoTabWrapper/InfoTabWrapper';
+import Tab from '../../components/Tab/Tab';
+import ImageContainer from '../../components/ImageContainer/ImageContainer';
 
 const InfoUtilsPage = () => {
+
+    const infoUtilTabArray = [
+        {
+            tabTitle: "TRASPORTI PUBBLICI",
+            tabId: "tab1",
+            renderTabComponent: (<p>TRANSFORMERS</p>)
+        },
+        {
+            tabTitle: "TAXI",
+            tabId: "tab2",
+            renderTabComponent: (<p>GTA MODE</p>)
+        },
+    ]
+
     return (
         <div>
-            <PresentationImage />
-            <InfoTabWrapper />
+            <ImageContainer bgImg={''} bigTitle={''} subTitle={''}></ImageContainer>
+            <Tab arrayTabs={infoUtilTabArray}></Tab>
             <PrenotationBanner />
             <FooterHotel />
         </div>

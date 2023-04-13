@@ -19,7 +19,7 @@ export const LiTabs = styled.li`
         text-decoration: underline;
     }
     &.Active{
-        box-shadow: 1px 2px 1px;
+        box-shadow: 0 2px 1px;
         background-color: #fbe0b1;
     }
 `
@@ -28,4 +28,6 @@ export const NavTab = styled.div`
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    aling-items:center;
+    
 `

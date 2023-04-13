@@ -1,7 +1,7 @@
 import React from 'react'
 import { Stack } from '../../generalGlobalComponent'
 
-export default function RoomShowRoom() {
+export default function ShowRooms() {
     return (
         <div style={{ fontFamily: "Montserrat , sans-serif", padding: "5rem 0" }}>
             <Stack style={{ justifyContent: "center", flexDirection: "column", alignItems: "center" }}>
