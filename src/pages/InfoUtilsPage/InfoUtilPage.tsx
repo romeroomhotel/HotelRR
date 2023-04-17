@@ -22,7 +22,7 @@ const InfoUtilsPage = () => {
 
     return (
         <div>
-            <ImageContainer bgImg={''} bigTitle={''} subTitle={''}></ImageContainer>
+            <ImageContainer bgImg={'url(' + require('../../Img/colazione.jpg') + ')'} bigTitle={'roma room hotel'} subTitle={'informazioni utili'}></ImageContainer>
             <Tab arrayTabs={infoUtilTabArray}></Tab>
             <PrenotationBanner />
             <FooterHotel />

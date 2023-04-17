@@ -3,8 +3,8 @@ import { Stack } from '../../generalGlobalComponent'
 
 export default function Card() {
     return (
-        <Stack style={{ width: "23.75rem", height: "31.25rem", backgroundColor: "black", position: 'relative', borderRadius: '30px' }}>
-            <Stack style={{ backgroundColor: 'red', height: "16.25rem", width: '100%', zIndex: '1', position: 'absolute', borderRadius: '30px 30px 20px 20px ' }}>
+        <Stack style={{ width: "23.75rem", height: "31.25rem", backgroundColor: "#937251", position: 'relative' }}>
+            <Stack style={{ backgroundColor: '#fbe0b1', height: "16.25rem", width: '100%', zIndex: '1', position: 'absolute' }}>
 
             </Stack>
             <Stack style={{ position: 'relative' }}>

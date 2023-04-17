@@ -1,6 +1,6 @@
 export const SliderData = [
     {
-        image: require('../../Img/ingresso-portone.jpg')
+        image: require('../../Img/bg.jpg')
     },
     {
         image: require('../../Img/area-comunale-1.jpg')

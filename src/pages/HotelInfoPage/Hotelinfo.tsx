@@ -27,7 +27,7 @@ const HotelInfo = () => {
 
   return (
     <>
-      <ImageContainer bgImg={''} bigTitle={''} subTitle={''}></ImageContainer>
+      <ImageContainer bgImg={'url(' + require('../../Img/ingresso-portone.jpg') + ')'} bigTitle={'roma room hotel'} subTitle={"la nostra struttura"}></ImageContainer>
       <Tab arrayTabs={hotelInfoTab}></Tab>
       <PrenotationBanner />
       <FooterHotel />
