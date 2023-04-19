@@ -10,7 +10,7 @@ const HomePage = () => {
 
     return (
         <>
-            <ImageContainer bgImg={require('../../Img/facciataprincipale.jpg')} bigTitle='BENVENUTI' subTitle='ROMA ROOM HOTEL'></ImageContainer >
+            <ImageContainer bgImg={require('../../Img/Optimized-facciataprincipale.jpg')} bigTitle='BENVENUTI' subTitle='ROMA ROOM HOTEL'></ImageContainer >
             <WhereWeAtContainer />
             <ServicesBanner />
             <PrenotationBanner />

@@ -28,7 +28,7 @@ const HotelInfo = () => {
 
   return (
     <>
-      <ImageContainer bgImg={require('../../Img/facciataentrata.jpg')} bigTitle={'roma room hotel'} subTitle={"la nostra struttura"}></ImageContainer>
+      <ImageContainer bgImg={require('../../Img/Optimized-facciataentrata.jpg')} bigTitle={'roma room hotel'} subTitle={"la nostra struttura"}></ImageContainer>
       <StructureCarousel />
       <Tab arrayTabs={hotelInfoTab} />
       <PrenotationBanner />

@@ -14,6 +14,7 @@
     "@types/node": "^16.18.23",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
+    "fslightbox-react": "^1.7.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
@@ -50,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@types/fslightbox-react": "^1.7.2",
     "@types/styled-components": "^5.1.26"
   }
 }

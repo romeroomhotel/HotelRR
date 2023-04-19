@@ -17,7 +17,7 @@ export default function StructureCarousel() {
     const [activeThumb, setActiveThumb] = useState<any>(null)
 
     const structureImages = [
-        require('../../Img/area-comunale-1.jpg'), require('../../Img/areaGenerale1.jpg'), require('../../Img/corridoio1.jpg'), require('../../Img/corridoioQuadri.jpg'), require('../../Img/facciataentrata.jpg'), require('../../Img/facciataprincipale.jpg'), require('../../Img/fotoHotelProfilo.jpg'), require('../../Img/ingresso-portone.jpg'), require('../../Img/lampade.jpg'), require('../../Img/parcheggioInterno.jpg'), require('../../Img/piazzaSalerno.jpg')
+        require('../../Img/Optimized2-area-comunale-1.jpg'), require('../../Img/Optimized2-areaGenerale1.jpg'), require('../../Img/Optimized2-corridoio1.jpg'), require('../../Img/Optimized2-corridoioQuadri.jpg'), require('../../Img/Optimized-facciataentrata.jpg'), require('../../Img/Optimized-facciataprincipale.jpg'), require('../../Img/Optimized2-fotoHotelProfilo.jpg'), require('../../Img/Optimized2-ingresso-portone.jpg'), require('../../Img/lampade.jpg'), require('../../Img/Optimized2-parcheggioInterno.jpg'), require('../../Img/Optimized-piazzaSalerno.jpg')
     ]
 
     return (
