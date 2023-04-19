@@ -19,7 +19,7 @@ const HotelNav = () => {
                     <HLink to={"/Rooms"}>rooms</HLink>
                     <HLink to={"/Info-utils"}>other info</HLink>
                     <HLink to={"/Near-places"}>around</HLink>
-                    <HLink to="" target="_blank">book now!</HLink>
+                    <HLink to="" target="_blank">book now</HLink>
                 </NavList>
             </Stack >
         </>
