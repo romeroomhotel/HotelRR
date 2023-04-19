@@ -11,6 +11,7 @@ export interface ShowRoomCarArrayProps {
 }
 
 const ShowRoomCatComponent = (rooms: ShowRoomCarArrayProps) => {
+
     return (
         <Stack style={{ width: '80%' }}>
             {
@@ -18,14 +19,12 @@ const ShowRoomCatComponent = (rooms: ShowRoomCarArrayProps) => {
                 (
                     <Stack style={{ flexDirection: 'column', padding: '1rem', width: '100%' }}>
                         <h3>{room.roomCat} :</h3>
-                        <Stack style={{ flexDirection: 'row', flexWrap: 'wrap', width: '100%' }}>
+                        <Stack style={{ flexDirection: 'row', flexWrap: 'wrap', width: '100%', gap: '0.5rem' }}>
                             {room.roomImages.map((img, index) => (
-                                <div style={{ height: '400px', flex: '33.33%' }} key={index}><img style={{ width: '90%', borderRadius: '10px' }} src={img} alt='none'></img></div>
+                                <div style={{ width: '33.33%' }} key={index}><img style={{ width: '100%', borderRadius: '10px' }} src={img} alt='none'></img></div>
                             ))}
                         </Stack>
                     </Stack>
-
-
                 )
                 )
             }

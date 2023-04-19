@@ -18,7 +18,7 @@ export default function Tab(arrayTabs: arrayTabsInterface) {
     const [activeTab, setActiveTab] = useState("tab1")
 
     return (
-        <>
+        <div style={{ width: '100%' }}>
             <Stack>
                 {arrayTabs.arrayTabs.map((item: objectTabInterface) => (
                     <NavTab style={{ width: '100%' }}>
@@ -29,6 +29,6 @@ export default function Tab(arrayTabs: arrayTabsInterface) {
             {arrayTabs.arrayTabs.map((item) => (
                 <TabContent id={item.tabId} activeTab={activeTab} children={item.renderTabComponent}></TabContent>
             ))}
-        </ >
+        </div>
     )
 }

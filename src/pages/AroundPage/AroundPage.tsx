@@ -26,7 +26,7 @@ const AroundDatas: AroundDataInterface[] = [
 const AroundPage = () => {
     return (
         <div>
-            <ImageContainer bgImg={'url(' + require('../../Img/area-comunale-1.jpg') + ')'} bigTitle={'consigli su cosa visitare'} subTitle={'le migliori attrazioni turistiche'}></ImageContainer>
+            <ImageContainer bgImg={require('../../Img/piazzaSalerno.jpg')} bigTitle={'consigli su cosa visitare'} subTitle={'le migliori attrazioni turistiche'}></ImageContainer>
             <AroundImagesContainer datas={AroundDatas} />
             <PrenotationBanner />
             <FooterHotel />

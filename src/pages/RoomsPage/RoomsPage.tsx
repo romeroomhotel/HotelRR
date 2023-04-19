@@ -5,10 +5,11 @@ import PrenotationBanner from '../../components/PrenotationBanner/PrenotationBan
 import ShowRooms from '../../components/ShowRoomsPage/ShowRoomsPage';
 import ImageContainer from '../../components/ImageContainer/ImageContainer';
 
+
 const RoomsPage = () => {
     return (
-        <div>
-            <ImageContainer bgImg={'url(' + require('../../Img/stanza3.jpg') + ')'} bigTitle={'roma room hotel'} subTitle={'le nostre camere'}></ImageContainer>
+        <div style={{ position: 'relative' }}>
+            <ImageContainer bgImg={require('../../Img/lettomatrimoniale.jpg')} bigTitle={'roma room hotel'} subTitle={'le nostre camere'}></ImageContainer>
             <ShowRooms />
             <PrenotationBanner />
             <FooterHotel />

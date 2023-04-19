@@ -1,5 +1,5 @@
 import React from 'react'
-import { LiTabs } from '../../generalGlobalComponent';
+import { LiTabs, Stack } from '../../generalGlobalComponent';
 
 interface TabItemProps {
     id: string;
@@ -15,6 +15,9 @@ export default function TabNavItem({ id, activeTab, title, setActiveTab }: TabIt
     };
 
     return (
-        <LiTabs onClick={handleClick} className={activeTab === id ? "Active" : ""}>{title}</LiTabs>
+        <Stack>
+            <LiTabs style={{ width: '100%' }} onClick={handleClick} className={activeTab === id ? "Active" : ""}>{title}</LiTabs>
+        </Stack>
+
     )
 }

@@ -31,3 +31,4 @@ export const NavTab = styled.div`
     aling-items:center;
     
 `
+

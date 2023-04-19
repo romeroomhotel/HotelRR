@@ -1,6 +1,7 @@
 import React from 'react'
 import { Stack } from '../../generalGlobalComponent'
 import ShowRoomCatComponent, { ShowRoomCatComponentInterface } from '../ShowRoomCatComponent/ShowRoomCatComponent'
+import './ShowRoomsPage'
 
 export default function ShowRooms() {
 
@@ -8,17 +9,16 @@ export default function ShowRooms() {
         {
             roomCat: 'CAMERA LETTO SINGOLO',
             roomImages: [
-                require('../../Img/stanza1.jpg'), require('../../Img/stanza1.jpg'), require('../../Img/stanza1.jpg'),
-                require('../../Img/stanza1.jpg'), require('../../Img/stanza1.jpg'), require('../../Img/stanza1.jpg'),
+                require('../../Img/singola.jpg'), require('../../Img/bagnosingolo.jpg'), require('../../Img/bagnosingolo 2.jpg'),
             ]
         }
     ]
 
     const twoBed: ShowRoomCatComponentInterface[] = [
         {
-            roomCat: 'CAMERA DOPPIA',
+            roomCat: 'CAMERA MATRIMONIALE',
             roomImages: [
-                require('../../Img/stanza1.jpg'), require('../../Img/stanza1.jpg'), require('../../Img/stanza1.jpg')
+                require('../../Img/lettomatrimoniale.jpg'), require('../../Img/MatrimonialePiccolo.jpg'), require('../../Img/matrimoniale (2).jpg'), require('../../Img/matrimoniale.jpg'), require('../../Img/matrimoniale-piccolo.jpg'),
             ]
         }
     ]
@@ -27,7 +27,7 @@ export default function ShowRooms() {
         {
             roomCat: 'CAMERA TRIPLA',
             roomImages: [
-                require('../../Img/stanza1.jpg'), require('../../Img/stanza1.jpg'), require('../../Img/stanza1.jpg')
+                require('../../Img/tripla.jpg')
             ]
         }
     ]
@@ -36,7 +36,7 @@ export default function ShowRooms() {
         {
             roomCat: 'CAMERA QUADRUPLA',
             roomImages: [
-                require('../../Img/stanza1.jpg'), require('../../Img/stanza1.jpg'), require('../../Img/stanza1.jpg')
+                require('../../Img/quadrupla.jpg'),
             ]
         }
     ]
