@@ -8,22 +8,25 @@ import NearPlacesPage from './pages/AroundPage/AroundPage';
 import BookNowPage from './pages/BookingPage/Bookingpage';
 import HotelNav from './components/Navbar/HotelNav';
 import ScrollTop from './components/ScrollTop/ScrollTop';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 const App = () => {
 
   return (
-    <BrowserRouter>
-      <HotelNav />
-      <ScrollTop />
-      <Routes>
-        <Route path='/' element={<Homepage />} />
-        <Route path='/Hotelinfo' element={<Hotelinfo />} />
-        <Route path='/Rooms' element={<RoomsPage />} />
-        <Route path='/Info-utils' element={<InfoUtilsPage />} />
-        <Route path='/Near-places' element={<NearPlacesPage />} />
-        <Route path='#' element={<BookNowPage />} />
-      </Routes>
-    </BrowserRouter>
+    <ParallaxProvider>
+      <BrowserRouter>
+        <HotelNav />
+        <ScrollTop />
+        <Routes>
+          <Route path='/' element={<Homepage />} />
+          <Route path='/Hotelinfo' element={<Hotelinfo />} />
+          <Route path='/Rooms' element={<RoomsPage />} />
+          <Route path='/Info-utils' element={<InfoUtilsPage />} />
+          <Route path='/Near-places' element={<NearPlacesPage />} />
+          <Route path='/Booking-page' element={<BookNowPage />} />
+        </Routes>
+      </BrowserRouter>
+    </ParallaxProvider>
   )
 }
 

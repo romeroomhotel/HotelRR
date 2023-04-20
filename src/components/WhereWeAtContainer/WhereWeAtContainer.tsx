@@ -3,7 +3,7 @@ import { Stack } from '../../generalGlobalComponent'
 
 export default function WhereWeAtContainer() {
     return (
-        <Stack style={{ flexDirection: 'column', alignItems: 'center', textAlign: 'center', height: '65vh', justifyContent: 'center', color: '#937251', fontFamily: "Montserrat , sans-serif" }}>
+        <Stack style={{ flexDirection: 'column', alignItems: 'center', textAlign: 'center', height: '65vh', justifyContent: 'center', color: '#937251', fontFamily: "Montserrat , sans-serif", backgroundColor: '#FFF' }}>
             <h2 style={{
                 borderBottom: '5px solid #937251', fontSize: '2.5rem', textShadow: "#fbe0b1 2px 1px 2px"
             }}>DOVE SIAMO</h2>
