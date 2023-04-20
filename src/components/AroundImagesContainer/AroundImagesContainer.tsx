@@ -17,9 +17,9 @@ export const AroundImagesContainer = (data: AroundDataArrayProps) => {
             {
                 data.datas.map((item, index) => {
                     return (
-                        <Stack key={index} style={{ flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%', padding: '0 4rem' }}>
-                            <h2 style={{ margin: '2rem', textAlign: 'left', width: '100%' }}>{item.title}</h2>
-                            <Stack style={{ width: '100%', gap: '2rem' }}>
+                        <Stack key={index} style={{ flexDirection: 'column', justifyContent: 'center', alignItems: 'center', }}>
+                            <h2 style={{ margin: '2rem', textAlign: 'left', width: '100%', paddingLeft: '5rem' }}>{item.title}</h2>
+                            <Stack style={{ width: '100%', gap: '2rem', justifyContent: 'space-around' }}>
                                 <div>
                                     {<img src={item.img} alt="NONE" style={{ height: '400px', width: '100%' }} />}
                                 </div>
