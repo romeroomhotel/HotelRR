@@ -7,18 +7,33 @@ import { AroundDataInterface, AroundImagesContainer } from '../../components/Aro
 
 const AroundDatas: AroundDataInterface[] = [
     {
-        title: 'Primo posto',
-        img: require('../../Img/area-comunale-1.jpg'),
+        title: 'COLOSSEO',
+        img: require('../../Img/colosseo.jpg'),
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.'
     },
     {
-        title: 'Secondo posto',
-        img: require('../../Img/area-comunale-1.jpg'),
+        title: 'FONTANA DI TREVI',
+        img: require('../../Img/fontanaTrevi.jpg'),
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimusLorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus..'
     },
     {
-        title: 'Terzo posto',
-        img: require('../../Img/area-comunale-1.jpg'),
+        title: 'VILLA TORLONIA',
+        img: require('../../Img/villaTorlonia.jpg'),
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.'
+    },
+    {
+        title: 'LA SAPIENZA',
+        img: require('../../Img/laSapienza.jpg'),
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.'
+    },
+    {
+        title: 'PIAZZA DI SPAGNA',
+        img: require('../../Img/piazzaSpagna.jpg'),
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.'
+    },
+    {
+        title: 'PORTA MAGGIORE',
+        img: require('../../Img/portaMaggiore.jpg'),
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus explicabo consequuntur, accusantium nisi dicta numquam odit? Dolor, saepe ex alias modi deleniti architecto maiores facilis quibusdam eveniet aut obcaecati ducimus.'
     },
 ]
