@@ -4,6 +4,8 @@ import FooterHotel from '../../components/Footer/FooterHotel';
 import PrenotationBanner from '../../components/PrenotationBanner/PrenotationBanner';
 import Tab from '../../components/Tab/Tab';
 import ImageContainer from '../../components/ImageContainer/ImageContainer';
+import TabCommute from '../../components/TabCommute/TabCommute';
+import TabTaxi from '../../components/TabTaxi/TabTaxi';
 
 const InfoUtilsPage = () => {
 
@@ -11,12 +13,12 @@ const InfoUtilsPage = () => {
         {
             tabTitle: "TRASPORTI PUBBLICI",
             tabId: "tab1",
-            renderTabComponent: (<p>TRANSFORMERS</p>)
+            renderTabComponent: (<TabCommute />)
         },
         {
-            tabTitle: "TAXI",
+            tabTitle: "SERVIZIO TAXI",
             tabId: "tab2",
-            renderTabComponent: (<p>GTA MODE</p>)
+            renderTabComponent: (<TabTaxi />)
         },
     ]
 

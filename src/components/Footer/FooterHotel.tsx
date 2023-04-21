@@ -13,8 +13,16 @@ export default function FooterHotel() {
                 justifyContent: "space-around", alignItems: "center", padding: "1.5rem",
             }}>
                 <Stack style={{ flexDirection: "column", justifyContent: "center", alignItems: "center", width: "30rem" }}>
-                    <h6>IL NOSTRO HOTEL</h6>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, eveniet qui aliquam dicta provident amet nostrum repudiandae corrupti voluptatibus sint esse autem perferendis consequuntur, blanditiis quos dolorem iste facere. Delectus.</p>
+                    <h4>IL NOSTRO HOTEL</h4>
+                    <p style={{ textAlign: 'justify' }}>ROMA ROOM HOTEL è situato nel quartiere Nomentano in via morgagni 41
+
+                        distante a pochissimi metri dalle fermate dei trasporti pubblici
+
+                        garantendo facilità nel raggiungerci o ad arrivare
+
+                        alle principali attrazioni che offre ROMA.
+
+                        OLTRETUTTO NEL NOSTRO HOTEL È POSSIBILE USUFRUIRE DEL PARCHEGGIO PRIVATO INTERNO</p>
                 </Stack>
                 <Carousel slides={SliderData} />
             </Stack >
