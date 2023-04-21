@@ -4,6 +4,7 @@ import FooterHotel from '../../components/Footer/FooterHotel';
 import PrenotationBanner from '../../components/PrenotationBanner/PrenotationBanner';
 import ImageContainer from '../../components/ImageContainer/ImageContainer';
 import { AroundDataInterface, AroundImagesContainer } from '../../components/AroundImagesContainer/AroundImagesContainer';
+import HotelNav from '../../components/Navbar/HotelNav';
 
 const AroundDatas: AroundDataInterface[] = [
     {
@@ -41,6 +42,7 @@ const AroundDatas: AroundDataInterface[] = [
 const AroundPage = () => {
     return (
         <div>
+            <HotelNav />
             <ImageContainer bgImg={require('../../Img/Optimized-piazzaSalerno.jpg')} bigTitle={'consigli su cosa visitare'} subTitle={'le migliori attrazioni turistiche'}></ImageContainer>
             <AroundImagesContainer datas={AroundDatas} />
             <PrenotationBanner />

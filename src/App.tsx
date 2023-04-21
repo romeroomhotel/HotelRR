@@ -15,8 +15,8 @@ const App = () => {
   return (
     <ParallaxProvider>
       <BrowserRouter>
-        <HotelNav />
         <ScrollTop />
+        {/* <HotelNav /> */}
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/Hotelinfo' element={<Hotelinfo />} />

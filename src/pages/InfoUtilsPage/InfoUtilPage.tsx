@@ -6,6 +6,7 @@ import Tab from '../../components/Tab/Tab';
 import ImageContainer from '../../components/ImageContainer/ImageContainer';
 import TabCommute from '../../components/TabCommute/TabCommute';
 import TabTaxi from '../../components/TabTaxi/TabTaxi';
+import HotelNav from '../../components/Navbar/HotelNav';
 
 const InfoUtilsPage = () => {
 
@@ -24,6 +25,7 @@ const InfoUtilsPage = () => {
 
     return (
         <div>
+            <HotelNav />
             <ImageContainer bgImg={require('../../Img/Optimized-lampade.jpg')} bigTitle={'roma room hotel'} subTitle={'informazioni utili'}></ImageContainer>
             <Tab arrayTabs={infoUtilTabArray}></Tab>
             <PrenotationBanner />

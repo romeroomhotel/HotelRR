@@ -8,6 +8,7 @@ import StructureCarousel from '../../components/StructureCarousel/StructureCarou
 import TabHowTo from '../../components/TabHowTo/TabHowTo';
 import TabServices from '../../components/TabServices/TabServices';
 import TabContatcs from '../../components/TabContatcs/TabContatcs';
+import HotelNav from '../../components/Navbar/HotelNav';
 
 const HotelInfo = () => {
 
@@ -33,6 +34,7 @@ const HotelInfo = () => {
 
   return (
     <>
+      <HotelNav />
       <ImageContainer bgImg={require('../../Img/Optimized-facciataentrata.jpg')} bigTitle={'roma room hotel'} subTitle={"la nostra struttura"}></ImageContainer>
       <StructureCarousel />
       <Tab arrayTabs={hotelInfoTab} />
