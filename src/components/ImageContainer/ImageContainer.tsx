@@ -1,5 +1,4 @@
 import React from 'react'
-import { Stack } from '../../generalGlobalComponent';
 import { ImgContainer, ImgOpacity } from './ImageContainer.style';
 
 export interface PresentationImg {

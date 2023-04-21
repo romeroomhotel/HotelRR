@@ -12,6 +12,12 @@ export const NavBar = styled.div`
     width: 100%;
     display: flex;
 
+    @media (max-width: 882px){
+
+        justify-content: space-between;
+
+    }
+
     .logo{
         justify-content: center;
         align-items: center;
@@ -31,20 +37,6 @@ export const NavBar = styled.div`
         }
 
     }
-
-    @media (max-width: 882px){
-
-        justify-content: space-between;
-
-    }
-/* 
-    @media (max-width: 780px){
-        
-        justify-content: center;
-
-
-    } */
-
 `
 
 export const NavList = styled.ul`
@@ -56,6 +48,7 @@ export const NavList = styled.ul`
         flex-direction: column; 
         display:none;
     }
+
 `
 export const HLink = styled(NavLink)`
     font-weight: bold;
