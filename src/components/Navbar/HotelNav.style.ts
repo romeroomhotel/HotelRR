@@ -12,12 +12,6 @@ export const NavBar = styled.div`
     width: 100%;
     display: flex;
 
-    @media (max-width: 882px){
-
-        justify-content: space-between;
-
-    }
-
     .logo{
         justify-content: center;
         align-items: center;
@@ -37,6 +31,12 @@ export const NavBar = styled.div`
         }
 
     }
+
+    @media (max-width: 882px){
+
+    justify-content: space-between;
+
+    }
 `
 
 export const NavList = styled.ul`
@@ -44,6 +44,7 @@ export const NavList = styled.ul`
     display: flex;
     justify-content: center;
     gap: 1rem;
+    
     @media (max-width: 882px){
         flex-direction: column; 
         display:none;
