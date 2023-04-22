@@ -104,7 +104,7 @@ export const NavList2 = styled.ul`
     @media (max-width: 600px){
         flex-direction: column;
         right: 0%;
-        bottom: -360%;
+        bottom: -370%;
         padding: 1rem;
         font-size: 0.8rem;
     }
