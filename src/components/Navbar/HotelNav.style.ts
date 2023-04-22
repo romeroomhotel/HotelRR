@@ -91,11 +91,14 @@ export const NavList2 = styled.ul`
     
     @media (max-width: 882px){
         position: absolute;
-        bottom: -50%;
+        bottom: -70%;
         justify-content: space-between;
         display: flex;
         gap: 1rem;
         text-decoration: none;
+        background-color: #937251;
+        padding: 1rem 2rem;
+        width: 90%;
     }
 
     @media (max-width: 600px){
@@ -103,7 +106,6 @@ export const NavList2 = styled.ul`
         right: 0%;
         bottom: -360%;
         padding: 1rem;
-        background-color: #937251; 
         font-size: 0.8rem;
     }
 `
