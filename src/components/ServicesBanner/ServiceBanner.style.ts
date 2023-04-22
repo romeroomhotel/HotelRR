@@ -5,6 +5,7 @@ export const ServiceBannerContainer = styled.div`
     background-color: #f7f7f7;
     display:flex;
     flex-direction: column;
+    padding: 1rem 0;
 `
 
 export const Serviceh2 = styled.h2`

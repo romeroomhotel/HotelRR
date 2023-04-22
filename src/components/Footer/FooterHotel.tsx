@@ -9,9 +9,9 @@ export default function FooterHotel() {
             < Stack style={{
                 justifyContent: "space-around", alignItems: "center", padding: "1.5rem",
             }}>
-                <Stack style={{ flexDirection: "column", justifyContent: "center", alignItems: "center", width: "30rem" }}>
-                    <h4>IL NOSTRO HOTEL</h4>
-                    <p style={{ textAlign: 'justify' }}>ROMA ROOM HOTEL è situato nel quartiere Nomentano in via morgagni 41
+                <Stack style={{ flexDirection: "column", justifyContent: "center", alignItems: "center", width: "70%", padding: '3rem 0' }}>
+                    <h4 style={{ marginBottom: '1rem' }}>IL NOSTRO HOTEL</h4>
+                    <p style={{ textAlign: 'center' }}>ROMA ROOM HOTEL è situato nel quartiere Nomentano in via morgagni 41
 
                         distante a pochissimi metri dalle fermate dei trasporti pubblici
 
