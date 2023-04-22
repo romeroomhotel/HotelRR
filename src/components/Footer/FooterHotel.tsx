@@ -1,7 +1,5 @@
 import React from 'react'
 import { Stack } from '../../generalGlobalComponent'
-import Carousel from '../Carousel/Carousel'
-import { SliderData } from '../Carousel/CarouselData'
 
 export default function FooterHotel() {
     return (
@@ -23,7 +21,6 @@ export default function FooterHotel() {
 
                         OLTRETUTTO NEL NOSTRO HOTEL È POSSIBILE USUFRUIRE DEL PARCHEGGIO PRIVATO INTERNO</p>
                 </Stack>
-                <Carousel slides={SliderData} />
             </Stack >
             <Stack style={{ justifyContent: "space-between", alignItems: "center", backgroundColor: "#937251", fontSize: "0.8rem", padding: '0.5rem 1rem' }}>
                 <p style={{ marginRight: '0.5rem' }}>© COPYRIGHT ROMA ROOM HOTEL </p>
