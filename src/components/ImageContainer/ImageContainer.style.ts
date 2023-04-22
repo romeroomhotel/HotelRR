@@ -33,4 +33,32 @@ export const ImgOpacity = styled.div`
         width: 100%;
         height: 60vh;
     }
+
+    .smallTitle{
+        text-align: center;
+        margin: 0; 
+        color: #fbe0b1;
+        text-shadow: #937251 2px 1px 2px;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        letter-spacing: 0.2rem;
+
+        @media (max-width: 779px){
+            font-size: 1.3rem
+        }
+    }
+
+    .bigTitle{
+        text-align: center;
+         margin-top: 0;
+        color: #fbe0b1;
+        text-shadow: #937251 2px 1px 2px;
+        font-size: 4rem;
+        letter-spacing: 0.3rem;
+
+        @media (max-width: 779px){
+            font-size: 2rem;
+        }
+    }
+
 `

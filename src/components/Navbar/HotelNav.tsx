@@ -6,7 +6,7 @@ import { faBars, faHotel } from '@fortawesome/free-solid-svg-icons';
 const HotelNav = () => {
 
     return (
-        <div>
+        <div style={{ width: "100%" }}>
             <NavBar>
                 <Stack className='logo'>
                     <FontAwesomeIcon icon={faHotel} size="2xl" style={{ color: "#fbe0b1" }} />
@@ -21,7 +21,7 @@ const HotelNav = () => {
                     <HLink to={"/Near-places"}>around</HLink>
                     <HLink to={"https://wubook.net/wbkd/wbk/?lcode=1472478379&expired=1"} target="_blank">book now</HLink>
                 </NavList>
-                <FontAwesomeIcon className="burgerMenu" size="xl" icon={faBars} style={{ color: "#fbe0b1", }} />
+                <FontAwesomeIcon className="burgerMenu" icon={faBars} style={{ color: "#fbe0b1", }} />
             </NavBar>
         </div >
     )

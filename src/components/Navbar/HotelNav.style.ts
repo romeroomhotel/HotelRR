@@ -5,12 +5,12 @@ export const NavBar = styled.div`
 
     justify-content: center;
     align-items: center;
-    background-color: #937251; 
-    padding: 0.5rem 0; 
+    background-color: #937251;  
     position: fixed; 
-    z-index: 10;
-    width: 100%;
+    z-index: 2;
     display: flex;
+    padding: 1rem 2rem;
+    width: 100%;
 
     .logo{
         justify-content: center;
@@ -18,7 +18,10 @@ export const NavBar = styled.div`
         gap: 1rem;
         padding-right: 1rem;
         @media (max-width: 882px){
-            padding-left: 1rem;
+            font-size: 0.8rem;
+        }
+        @media (max-width: 600px){
+            font-size: 0.5rem;
         }
     }
 
@@ -27,7 +30,9 @@ export const NavBar = styled.div`
 
         @media (max-width: 882px){
             display: flex;
-            padding-right: 1rem
+        }
+        @media (max-width: 600px){
+
         }
 
     }
@@ -35,6 +40,9 @@ export const NavBar = styled.div`
     @media (max-width: 882px){
 
     justify-content: space-between;
+
+    }
+    @media (max-width: 600px){
 
     }
 `
