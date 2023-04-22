@@ -1,6 +1,5 @@
 import React from 'react'
 import { Stack } from '../../generalGlobalComponent'
-import { Link } from 'react-router-dom'
 import Carousel from '../Carousel/Carousel'
 import { SliderData } from '../Carousel/CarouselData'
 
