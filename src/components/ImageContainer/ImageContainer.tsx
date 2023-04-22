@@ -10,7 +10,7 @@ export interface PresentationImg {
 export default function ImageContainer({ bgImg, bigTitle, subTitle }: PresentationImg) {
 
     return (
-        <div>
+        <div style={{ paddingTop: '2rem' }}>
             <ImgContainer>
                 <img src={bgImg} alt="" style={{ width: '100%', height: '100%' }} />
                 <ImgOpacity>

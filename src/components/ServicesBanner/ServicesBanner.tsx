@@ -1,5 +1,4 @@
 import React from 'react'
-import { Stack } from '../../generalGlobalComponent';
 import Card from '../Card/Card';
 import { ServiceBannerContainer, ServiceCardContainer, Serviceh2 } from './ServiceBanner.style';
 
