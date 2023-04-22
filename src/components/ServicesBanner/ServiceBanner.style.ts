@@ -35,10 +35,11 @@ align-items: center;
 @media(max-width:882px){
     flex-direction: column;
     padding: 0;
+
 }
 
 @media(max-width:600px){
-    
+
 }
 
 `

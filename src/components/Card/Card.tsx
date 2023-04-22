@@ -1,5 +1,6 @@
 import React from 'react'
 import { Stack } from '../../generalGlobalComponent'
+import { CardContainer, CardImg, CardText } from './Card.style'
 
 interface CardInterface {
     title: string,
@@ -9,17 +10,17 @@ interface CardInterface {
 
 export default function Card(cardData: CardInterface) {
     return (
-        <Stack style={{ width: "23.75rem", height: "31.25rem", backgroundColor: "#937251", position: 'relative' }}>
-            <Stack style={{ height: "16.25rem", width: '100%', zIndex: '1', position: 'absolute' }}>
-                <img src={cardData.img} style={{ width: '100%' }} alt="NONE" />
-            </Stack>
+        <CardContainer>
+            <CardImg>
+                <img src={cardData.img} style={{ width: '100%', height: '100%' }} alt="NONE" />
+            </CardImg>
             <Stack style={{ position: 'relative' }}>
             </Stack>
-            <Stack style={{ flexDirection: "column", color: '#FFF', zIndex: '1', position: 'absolute', top: '55%', justifyContent: 'flex-start', alignItems: 'center', padding: '0 1.5rem' }}>
-                <h3>{cardData.title}</h3>
+            <CardText>
+                <h3 style={{ marginBottom: '1rem' }}>{cardData.title}</h3>
                 <p>{cardData.text}</p>
-            </Stack>
-        </Stack >
+            </CardText>
+        </CardContainer >
 
     )
 }
