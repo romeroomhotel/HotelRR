@@ -28,3 +28,17 @@ export const OurRoomsContainer = styled.div`
         background-color: unset;
     }
 `
+
+export const ShowRoomImg = styled.div`
+    width: 25rem;
+    height: 22rem;
+
+    @media(max-width: 882px){
+
+    }
+
+    @media(max-width: 600px){
+        height: 18rem;
+        width: 20rem;
+    }
+`

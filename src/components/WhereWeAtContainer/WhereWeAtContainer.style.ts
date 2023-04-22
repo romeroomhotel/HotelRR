@@ -11,14 +11,6 @@ export const WWAcontainer = styled.div`
     display:flex;    
     padding: 2rem 0; 
 
-    @media(max-width:882px){
-        height: 40vh;
-    }
-
-    @media(max-width:600px){
-        height: 0;
-    }
-
     .WWAh2{
         border-bottom: 5px solid #937251; 
         font-size: 2.5rem;
@@ -27,7 +19,7 @@ export const WWAcontainer = styled.div`
         @media(max-width: 882px){
             font-size: 2rem;
         }
-        @media(max-width:600){
+        @media(max-width:600px){
             font-size: 1.5rem;
         }
     }
@@ -37,11 +29,13 @@ export const WWAcontainer = styled.div`
         background-color: RGBA(251,224,177,0.9);
         padding: 2rem 2rem 3rem;
         color: #000;
+        text-align: center;
         @media(max-width: 882px){
             font-size: 1.3rem;
+            text-align: justify;
         }
         @media(max-width: 600px){
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
     }
 `

@@ -11,6 +11,13 @@ export const AroundImagesDiv = styled.div`
         align-items: center;
     }
 `
+export const ImgAround = styled.div`
+    height: 400px;
+@media(max-width: 600px){
+        height: 300px;
+    }
+`
+
 export const AroundImagesText = styled.div`
     width: 70%; 
     height: 24.417rem;

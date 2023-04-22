@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Stack } from '../../generalGlobalComponent';
 import FsLightbox from 'fslightbox-react';
-import { OurRoomsContainer, OurRoomsTitle } from './ShowRoomCatComponent.style';
+import { OurRoomsContainer, OurRoomsTitle, ShowRoomImg } from './ShowRoomCatComponent.style';
 
 export interface ShowRoomCatComponentInterface {
     roomCat: string,
@@ -44,7 +44,7 @@ const ShowRoomCatComponent = () => {
                         <OurRoomsTitle>{room.roomCat} :</OurRoomsTitle>
                         <Stack style={{ flexDirection: 'row', flexWrap: 'wrap', gap: '3rem', justifyContent: 'center', alignItems: 'stretch' }}>
                             {room.roomImages.map((img, index) => (
-                                <div style={{ width: '25rem', height: '22rem' }} onClick={() => openLightboxOnSlide(index)} key={index}><img style={{ width: '100%', height: '100%', borderRadius: '10px' }} src={img} alt='none'></img></div>
+                                <ShowRoomImg onClick={() => openLightboxOnSlide(index)} key={index}><img style={{ width: '100%', height: '100%', borderRadius: '10px' }} src={img} alt='none'></img></ShowRoomImg>
                             ))}
                             <FsLightbox toggler={lightboxController.toggler}
                                 sources={room.roomImages} sourceIndex={lightboxController.slide}></FsLightbox>

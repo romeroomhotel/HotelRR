@@ -4,7 +4,6 @@ export const ServiceBannerContainer = styled.div`
     flex-direction: column;
     background-color: #f7f7f7;
     display:flex;
-    flex-direction: column;
     padding: 1rem 2rem;
 `
 

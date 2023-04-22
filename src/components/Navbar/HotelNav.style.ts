@@ -26,8 +26,23 @@ export const NavBar = styled.div`
         }
     }
 
-    .burgerMenu{
-        display:none;
+    .closeMenu{
+        display: none;
+    }
+
+    .openMenu{
+        display: none;
+        
+        @media (max-width: 882px){
+            display: flex;
+        }
+        @media (max-width: 600px){
+
+        }
+    }
+
+    .openedBurger{
+        display: none;
 
         @media (max-width: 882px){
             display: flex;
@@ -35,6 +50,17 @@ export const NavBar = styled.div`
         @media (max-width: 600px){
 
         }
+    }
+
+    .closedBurger{
+        display: none;
+    }
+
+
+    .burgerMenu{
+        display:none;
+
+
 
     }
 

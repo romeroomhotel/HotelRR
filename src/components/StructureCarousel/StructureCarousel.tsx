@@ -21,7 +21,7 @@ export default function StructureCarousel() {
     ]
 
     return (
-        <div className="bgCarouselContainer" style={{ paddingTop: '3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+        <div className="bgCarouselContainer">
             <Swiper
                 loop={true}
                 spaceBetween={30}

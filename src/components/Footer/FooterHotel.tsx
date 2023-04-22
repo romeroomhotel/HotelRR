@@ -1,5 +1,6 @@
 import React from 'react'
 import { Stack } from '../../generalGlobalComponent'
+import { FTextContainer } from './FooterHotel.style'
 
 export default function FooterHotel() {
     return (
@@ -9,9 +10,9 @@ export default function FooterHotel() {
             < Stack style={{
                 justifyContent: "space-around", alignItems: "center", padding: "1.5rem",
             }}>
-                <Stack style={{ flexDirection: "column", justifyContent: "center", alignItems: "center", width: "70%", padding: '3rem 0' }}>
+                <FTextContainer>
                     <h4 style={{ marginBottom: '1rem' }}>IL NOSTRO HOTEL</h4>
-                    <p style={{ textAlign: 'center' }}>ROMA ROOM HOTEL è situato nel quartiere Nomentano in via morgagni 41
+                    <p className='footerP'>ROMA ROOM HOTEL è situato nel quartiere Nomentano in via morgagni 41
 
                         distante a pochissimi metri dalle fermate dei trasporti pubblici
 
@@ -20,7 +21,7 @@ export default function FooterHotel() {
                         alle principali attrazioni che offre ROMA.
 
                         OLTRETUTTO NEL NOSTRO HOTEL È POSSIBILE USUFRUIRE DEL PARCHEGGIO PRIVATO INTERNO</p>
-                </Stack>
+                </FTextContainer>
             </Stack >
             <Stack style={{ justifyContent: "space-between", alignItems: "center", backgroundColor: "#937251", fontSize: "0.8rem", padding: '0.5rem 1rem' }}>
                 <p style={{ marginRight: '0.5rem' }}>© COPYRIGHT ROMA ROOM HOTEL </p>
