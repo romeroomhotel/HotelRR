@@ -17,15 +17,15 @@ const HotelNav = () => {
             setBurgerClass("openedBurger")
             setMenuClass("openMenu")
             setBurgerClass2("closedBurger")
-            console.log("bona")
         }
-        else {
-            setOpenBurgerMenu(!setOpenBurgerMenu)
-            setBurgerClass("closedBurger")
-            setMenuClass("closeMenu")
-            setBurgerClass2("openedBurger")
-            console.log("ciao")
-        }
+    }
+
+    const toggleMenu2 = () => {
+
+        setOpenBurgerMenu(!setOpenBurgerMenu)
+        setBurgerClass("closedBurger")
+        setMenuClass("closeMenu")
+        setBurgerClass2("openedBurger")
 
     }
 
@@ -55,7 +55,7 @@ const HotelNav = () => {
                     <HLink to={"https://wubook.net/wbkd/wbk/?lcode=1471869133"} target="_blank">book now</HLink>
                 </NavList2>
                 <FontAwesomeIcon className={burgerClass2} onClick={toggleMenu} icon={faBars} style={{ color: "#fbe0b1", }} />
-                <FontAwesomeIcon className={burgerClass} onClick={toggleMenu} icon={faXmark} style={{ color: "#fbe0b1", }} />
+                <FontAwesomeIcon className={burgerClass} onClick={toggleMenu2} icon={faXmark} style={{ color: "#fbe0b1", }} />
             </NavBar>
         </div >
     )
