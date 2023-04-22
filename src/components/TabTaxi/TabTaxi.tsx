@@ -4,15 +4,15 @@ import { Stack } from '../../generalGlobalComponent'
 export default function TabTaxi() {
     return (
         <Stack style={{ flexDirection: 'column', padding: '2rem', fontFamily: 'MontSerrat' }}>
-            <h2>TAXI</h2>
+            <h2 style={{ padding: '1rem 0' }}>TAXI</h2>
             <Stack className='publicContainer'>
-                <h3>CONTATTI TAXI</h3>
+                <h3 style={{ padding: '1rem 0' }}>CONTATTI TAXI</h3>
                 <p>06 3570, 06 4994, 06 6645, 06 5551, o 06 8822.</p>
 
             </Stack>
-            <Stack className='publicContainer'>
-                <h3>POSTEGGI TAXI</h3>
-                <h4>Zona Centro</h4>
+            <Stack className='publicContainer '>
+                <h3 style={{ padding: '1rem 0' }}>POSTEGGI TAXI</h3>
+                <h4 style={{ padding: '1rem 0' }}>Zona Centro</h4>
                 <p>Barberini tel. 4814447</p>
                 <p>v. Boncompagni tel. 484448</p>
                 <p>vc. del Gallinaccio tel. 6793733</p>
@@ -23,7 +23,7 @@ export default function TabTaxi() {
                 <p>p. di Spagna tel. 6796686</p>
                 <p>v. Vittorio Veneto tel. 4880777</p>
                 <p>p. S. Silvestro tel. 6793183;</p>
-                <h4>Zona Bologna-Tiburtina – S. Lorenzo</h4>
+                <h4 style={{ padding: '1rem 0' }}>Zona Bologna-Tiburtina – S. Lorenzo</h4>
                 <p>Nardini tel. 8610800;</p>
                 <p>vl. Provincie tel. 44243433;</p>
                 <p>C. Castro Laurenziano tel. 4959240;</p>
@@ -38,7 +38,7 @@ export default function TabTaxi() {
                 <p>v. Tiburtina 545 tel. 432010;</p>
             </Stack>
             <Stack className='publicContainer'>
-                <h3>DA/PER AEROPORTO DI FIUMICINO L. DA VINCI</h3>
+                <h3 style={{ padding: '1rem 0' }}>DA/PER AEROPORTO DI FIUMICINO L. DA VINCI</h3>
                 <ul>
                     <li>Ciampino Aeroporto: € 50,00</li>
                     <li>Nuova Fiera di Roma: € 25,00</li>
@@ -49,7 +49,7 @@ export default function TabTaxi() {
                 </ul>
             </Stack>
             <Stack className='publicContainer'>
-                <h3>DA/PER AEROPORTO DI CIAMPINO G.B. PASTINE</h3>
+                <h3 style={{ padding: '1rem 0' }}>DA/PER AEROPORTO DI CIAMPINO G.B. PASTINE</h3>
                 <ul>
                     <li>Stazione Tiburtina: € 35,00</li>
                     <li>Stazione Ostiense: € 30,00</li>

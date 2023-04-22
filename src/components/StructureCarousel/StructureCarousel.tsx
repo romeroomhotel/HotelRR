@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./Structure.Carousel.css";
+import "./StructureCarousel.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation, Thumbs, Scrollbar } from "swiper";

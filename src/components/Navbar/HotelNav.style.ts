@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const NavBar = styled.div`
 
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #937251;  
     position: fixed; 
@@ -13,15 +13,16 @@ export const NavBar = styled.div`
     width: 100%;
 
     .logo{
+        font-size: 1rem;
         justify-content: center;
         align-items: center;
         gap: 1rem;
         padding-right: 1rem;
         @media (max-width: 882px){
-            font-size: 0.8rem;
+            font-size: 1.2rem;
         }
         @media (max-width: 600px){
-            font-size: 0.5rem;
+            font-size: 0.9rem;
         }
     }
 
@@ -54,10 +55,31 @@ export const NavList = styled.ul`
     gap: 1rem;
     
     @media (max-width: 882px){
-        flex-direction: column; 
-        display:none;
+        display: none;
+    }
+`
+
+
+export const NavList2 = styled.ul`
+    display: none;
+    
+    @media (max-width: 882px){
+        position: absolute;
+        bottom: -50%;
+        justify-content: space-between;
+        display: flex;
+        gap: 1rem;
+        text-decoration: none;
     }
 
+    @media (max-width: 600px){
+        flex-direction: column;
+        right: 0%;
+        bottom: -360%;
+        padding: 1rem;
+        background-color: #937251; 
+        font-size: 0.8rem;
+    }
 `
 export const HLink = styled(NavLink)`
     font-weight: bold;

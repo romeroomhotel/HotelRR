@@ -5,15 +5,15 @@ export const ServiceBannerContainer = styled.div`
     background-color: #f7f7f7;
     display:flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 1rem 2rem;
 `
 
 export const Serviceh2 = styled.h2`
     text-align: center;
-    margin: 3rem auto 0; 
     font-size: 2.5rem;
     text-shadow: #fbe0b1 2px 1px 2px;
     color: #937251;
+    padding: 2rem 0;
 
     @media(max-width:882px){
         font-size: 2rem;
@@ -28,19 +28,19 @@ export const Serviceh2 = styled.h2`
 export const ServiceCardContainer = styled.div`
 justify-content:center;
 gap: 8rem; 
-padding: 5em 0 15rem;
+padding: 5rem 0 5rem;
 font-family: Montserrat , sans-serif;
 display: flex;
 align-items: center;
 
 @media(max-width:882px){
-    flex-direction: column;
-    padding: 0;
-
+    padding: 0 1rem;
+    gap: 0.5rem;
 }
 
 @media(max-width:600px){
-
-}
+    flex-direction: column;
+    padding: 0;
+}   
 
 `

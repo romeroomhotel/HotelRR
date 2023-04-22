@@ -1,5 +1,6 @@
 import React from 'react'
 import { Stack } from '../../generalGlobalComponent'
+import { AroundImagesDiv, AroundImagesText } from './AroundImagesContainer.style'
 
 export interface AroundDataInterface {
     title: string,
@@ -19,14 +20,14 @@ export const AroundImagesContainer = (data: AroundDataArrayProps) => {
                     return (
                         <Stack key={index} style={{ flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
                             <h2 style={{ margin: '2rem', textAlign: 'left', width: '100%' }}>{item.title}</h2>
-                            <Stack style={{ width: '100%', gap: '2rem', justifyContent: 'space-between' }}>
+                            <AroundImagesDiv>
                                 <div>
                                     {<img src={item.img} alt="NONE" style={{ height: '400px', width: '100%' }} />}
                                 </div>
-                                <div style={{ width: '70%', height: '24.417rem', textAlign: 'left' }}>
+                                <AroundImagesText>
                                     {item.description}
-                                </div>
-                            </Stack>
+                                </AroundImagesText>
+                            </AroundImagesDiv>
                         </Stack >
                     )
                 })

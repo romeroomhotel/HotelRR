@@ -4,19 +4,19 @@ export const WWAcontainer = styled.div`
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 65vh;
     justify-content: 'center';
     color: #937251;
     font-family: "Montserrat , sans-serif";
     background-color: #FFF;
-    display:flex;     
+    display:flex;    
+    padding: 2rem 0; 
 
-    @media(width:882px){
-        height: 60vh;
+    @media(max-width:882px){
+        height: 40vh;
     }
 
-    @media(width:600px){
-        height: 30vh;
+    @media(max-width:600px){
+        height: 0;
     }
 
     .WWAh2{

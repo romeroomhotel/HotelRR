@@ -6,6 +6,11 @@ export const CardContainer = styled.div`
     background-color: #937251;
     position: relative;
 
+    @media(max-width:882px){
+        width: 20rem;
+        height: 30rem;
+    }
+
     @media(max-width:600px){
         width:100%;
     }
@@ -28,6 +33,7 @@ export const CardText = styled.div`
     justify-content: flex-start; 
     align-items: center;
     padding: 0 1.5rem;
+
     @media(max-width:600px){
         top:60%;
         text-align: justify

@@ -4,9 +4,9 @@ import { Stack } from '../../generalGlobalComponent'
 export default function TabHowTo() {
     return (
         <Stack style={{ flexDirection: 'column', padding: '3rem', fontFamily: "Montserrat , sans-serif" }}>
-            <h2>COME RAGGIUNCERCI :</h2>
-            <iframe title='Dove siamo' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.1748890173512!2d12.509977476599346!3d41.91059897123823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6173e26c0bb9%3A0x3346966931154f4!2sRoma%20Room%20Hotel!5e0!3m2!1sit!2sit!4v1681951605865!5m2!1sit!2sit" width="600" height="450" loading="lazy" ></iframe>
-            <Stack style={{ flexDirection: 'column', padding: '2rem 0' }}>
+            <h2 style={{ marginBottom: '1rem' }}>COME RAGGIUNCERCI</h2>
+            <iframe style={{ width: '100%' }} title='Dove siamo' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.1748890173512!2d12.509977476599346!3d41.91059897123823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6173e26c0bb9%3A0x3346966931154f4!2sRoma%20Room%20Hotel!5e0!3m2!1sit!2sit!4v1681951605865!5m2!1sit!2sit" width="600" height="450" loading="lazy" ></iframe>
+            <Stack style={{ flexDirection: 'column', padding: '2rem 0', gap: '1rem' }}>
                 <h3>
                     In automobile :
                 </h3>

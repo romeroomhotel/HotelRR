@@ -1,13 +1,12 @@
 import React from 'react'
 import { Stack } from '../../generalGlobalComponent'
+import { ServicesContainer } from './TabService.style'
 
 export default function TabServices() {
     return (
         <Stack style={{ flexDirection: 'column', alignItems: 'center', fontFamily: "Montserrat , sans-serif", padding: '3rem 1rem' }}>
-            <h2 style={{ margin: '2rem 0' }}>I NOSTRI SERVIZI</h2>
-            <Stack style={{
-                width: '100%', flexWrap: 'wrap', alignItems: 'flex-start', justifyContent: 'space-around'
-            }}>
+            <h2 style={{ padding: '2rem 0 5rem 0' }}>I NOSTRI SERVIZI</h2>
+            <ServicesContainer>
                 <Stack className='serviceDiv' style={{ flexDirection: 'column' }}>
                     <ul>
                         <Stack>
@@ -180,7 +179,7 @@ export default function TabServices() {
                         <li>Scrivania</li>
                     </ul>
                 </Stack>
-            </Stack>
+            </ServicesContainer>
         </Stack >
     )
 }

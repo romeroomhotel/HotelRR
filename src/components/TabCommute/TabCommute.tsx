@@ -4,37 +4,37 @@ import { Stack } from '../../generalGlobalComponent'
 export default function TabCommute() {
     return (
         <Stack style={{ flexDirection: 'column', padding: '2rem', fontFamily: 'MontSerrat' }}>
-            <h2>TRASPORTI PUBBLICI</h2>
+            <h2 style={{ padding: '1rem 0' }}>TRASPORTI PUBBLICI</h2>
             <Stack className='publicContainer'>
-                <h3>LINEA A: Anagnina-Battistini</h3>
+                <h3 style={{ padding: '1rem 0' }}>LINEA A: Anagnina-Battistini</h3>
                 <p>prima partenza 5:30</p>
                 <p>ultima partenza 23:30 (venerdì e sabato 1:30)</p>
             </Stack>
             <Stack className='publicContainer'>
-                <h3>LINEA B: Laurentina-Rebibbia</h3>
+                <h3 style={{ padding: '1rem 0' }}>LINEA B: Laurentina-Rebibbia</h3>
                 <p>prima partenza 5:30</p>
                 <p>ultima partenza 23:30 (venerdì e sabato 1:30)</p>
             </Stack>
             <Stack className='publicContainer'>
-                <h3>LINEA B1: Laurentina-Jonio</h3>
+                <h3 style={{ padding: '1rem 0' }}>LINEA B1: Laurentina-Jonio</h3>
                 <p>prima partenza 5:33</p>
                 <p>ultima partenza 23:27 – da Jonio 23:24 (venerdì e sabato 1:30)</p>
-                <h4>LINEA C: Pantano-San Giovanni  </h4>
+                <h4 style={{ padding: '1rem 0' }}>LINEA C: Pantano-San Giovanni  </h4>
                 <p>prima partenza 5:30</p>
                 <p>ultima partenza 23:30 (venerdì e sabato 1:30)</p>
             </Stack>
             <Stack className='publicContainer'>
-                <h3>ROMA-LIDO</h3>
+                <h3 style={{ padding: '1rem 0' }}>ROMA-LIDO</h3>
                 <p>prima partenza 5:08 (da Ostia 5:15)</p>
                 <p>ultima partenza 23:30</p>
             </Stack>
             <Stack className='publicContainer'>
-                <h3>TERMINI-CENTOCELLE</h3>
+                <h3 style={{ padding: '1rem 0' }}>TERMINI-CENTOCELLE</h3>
                 <p>prima partenza 5:30 (da Centocelle 5:03)</p>
                 <p>ultima partenza 22:50 (da Centocelle 22:23)</p>
             </Stack>
             <Stack className='publicContainer'>
-                <h4>BUS E TRAM</h4>
+                <h4 style={{ padding: '1rem 0' }}>BUS E TRAM</h4>
                 <p>Bus e tram operano anch’essi dalle 5:30 del mattino fino alla mezzanotte. Dalla mezzanotte e trenta fino alle 5:30 del mattino invece operano oltre 20 linee di bus notturni, i cui terminal principali sono Termini (Piazza del Cinquecento) e Piazza Venezia. Le fermate dei bus notturni sono contrassegnate dal simbolo del gufo e i biglietti si possono acquistare a bordo al prezzo di 1,00 Euro.</p>
             </Stack>
             <Stack className='publicContainer'>
