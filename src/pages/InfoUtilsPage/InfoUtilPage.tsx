@@ -7,6 +7,7 @@ import ImageContainer from '../../components/ImageContainer/ImageContainer';
 import TabCommute from '../../components/TabCommute/TabCommute';
 import TabTaxi from '../../components/TabTaxi/TabTaxi';
 import HotelNav from '../../components/Navbar/HotelNav';
+import ScrollTop from '../../components/ScrollTop/ScrollTop';
 
 const InfoUtilsPage = () => {
 
@@ -30,6 +31,7 @@ const InfoUtilsPage = () => {
             <Tab arrayTabs={infoUtilTabArray}></Tab>
             <PrenotationBanner />
             <FooterHotel />
+            <ScrollTop />
         </div>
     )
 }

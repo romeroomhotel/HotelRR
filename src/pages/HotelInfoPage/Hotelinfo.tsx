@@ -9,6 +9,7 @@ import TabHowTo from '../../components/TabHowTo/TabHowTo';
 import TabServices from '../../components/TabServices/TabServices';
 import TabContatcs from '../../components/TabContatcs/TabContatcs';
 import HotelNav from '../../components/Navbar/HotelNav';
+import ScrollTop from '../../components/ScrollTop/ScrollTop';
 
 const HotelInfo = () => {
 
@@ -40,6 +41,7 @@ const HotelInfo = () => {
       <Tab arrayTabs={hotelInfoTab} />
       <PrenotationBanner />
       <FooterHotel />
+      <ScrollTop />
     </>
   )
 }

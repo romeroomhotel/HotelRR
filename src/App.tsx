@@ -5,7 +5,6 @@ import Hotelinfo from './pages/HotelInfoPage/Hotelinfo';
 import RoomsPage from './pages/RoomsPage/RoomsPage';
 import InfoUtilsPage from './pages/InfoUtilsPage/InfoUtilPage';
 import NearPlacesPage from './pages/AroundPage/AroundPage';
-import BookNowPage from './pages/BookingPage/Bookingpage';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 const App = () => {
@@ -19,7 +18,6 @@ const App = () => {
           <Route path='/Rooms' element={<RoomsPage />} />
           <Route path='/Info-utils' element={<InfoUtilsPage />} />
           <Route path='/Near-places' element={<NearPlacesPage />} />
-          <Route path='/Booking-page' element={<BookNowPage />} />
         </Routes>
       </BrowserRouter>
     </ParallaxProvider>

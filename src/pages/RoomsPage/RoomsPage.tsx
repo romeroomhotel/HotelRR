@@ -5,6 +5,7 @@ import PrenotationBanner from '../../components/PrenotationBanner/PrenotationBan
 import ShowRooms from '../../components/ShowRoomsPage/ShowRoomsPage';
 import ImageContainer from '../../components/ImageContainer/ImageContainer';
 import HotelNav from '../../components/Navbar/HotelNav';
+import ScrollTop from '../../components/ScrollTop/ScrollTop';
 
 
 const RoomsPage = () => {
@@ -15,6 +16,7 @@ const RoomsPage = () => {
             <ShowRooms />
             <PrenotationBanner />
             <FooterHotel />
+            <ScrollTop />
         </div>
     )
 }

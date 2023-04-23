@@ -5,6 +5,7 @@ import PrenotationBanner from '../../components/PrenotationBanner/PrenotationBan
 import ImageContainer from '../../components/ImageContainer/ImageContainer';
 import { AroundDataInterface, AroundImagesContainer } from '../../components/AroundImagesContainer/AroundImagesContainer';
 import HotelNav from '../../components/Navbar/HotelNav';
+import ScrollTop from '../../components/ScrollTop/ScrollTop';
 
 const AroundDatas: AroundDataInterface[] = [
     {
@@ -47,6 +48,7 @@ const AroundPage = () => {
             <AroundImagesContainer datas={AroundDatas} />
             <PrenotationBanner />
             <FooterHotel />
+            <ScrollTop />
         </div>
     )
 }
