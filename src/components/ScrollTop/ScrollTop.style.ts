@@ -8,7 +8,7 @@ export const Content = styled.div`
 export const Button = styled.div`
     position: fixed;
     bottom: 55px;
-    right: 2.1vh;
+    right: 16px;
     z-index:3;
     cursor: pointer;
     padding: 0.5rem 0.7rem;

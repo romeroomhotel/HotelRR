@@ -27,8 +27,8 @@ export default function ScrollTop() {
     window.addEventListener('scroll', toggleVisible)
 
     return (
-        <Button>
-            <FontAwesomeIcon style={{ color: "#fbe0b1", display: visible ? 'inline' : 'none' }} onClick={scrollToTop} icon={faArrowUp} />
+        <Button onClick={scrollToTop}>
+            <FontAwesomeIcon style={{ color: "#fbe0b1", display: visible ? 'inline' : 'none' }} icon={faArrowUp} />
         </Button>
     )
 };
