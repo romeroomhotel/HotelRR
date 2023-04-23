@@ -39,23 +39,23 @@ const HotelNav = () => {
 
                 <NavList>
                     <HLink to={"/"} >homepage</HLink>
-                    <HLink to={"/HotelInfo"}>hotel info</HLink>
-                    <HLink to={"/Rooms"}>rooms</HLink>
-                    <HLink to={"/Info-utils"}>other info</HLink>
-                    <HLink to={"/Near-places"}>around</HLink>
+                    <HLink to={"/HotelInfo"}>info hotel</HLink>
+                    <HLink to={"/Rooms"}>camere</HLink>
+                    <HLink to={"/Info-utils"}>altre info</HLink>
+                    <HLink to={"/Near-places"}>Dintorni</HLink>
                     <HLink to={"https://wubook.net/wbkd/wbk/?lcode=1471869133"} target="_blank">book now</HLink>
                 </NavList>
 
                 <NavList2 className={menuClass}>
                     <HLink to={"/"} >homepage</HLink>
-                    <HLink to={"/HotelInfo"}>hotel info</HLink>
-                    <HLink to={"/Rooms"}>rooms</HLink>
-                    <HLink to={"/Info-utils"}>other info</HLink>
-                    <HLink to={"/Near-places"}>around</HLink>
+                    <HLink to={"/HotelInfo"}>info hotel</HLink>
+                    <HLink to={"/Rooms"}>camere</HLink>
+                    <HLink to={"/Info-utils"}>altre info</HLink>
+                    <HLink to={"/Near-places"}>dintorni</HLink>
                     <HLink to={"https://wubook.net/wbkd/wbk/?lcode=1471869133"} target="_blank">book now</HLink>
                 </NavList2>
-                <FontAwesomeIcon className={burgerClass2} onClick={toggleMenu} icon={faBars} style={{ color: "#fbe0b1", }} />
-                <FontAwesomeIcon className={burgerClass} onClick={toggleMenu2} icon={faXmark} style={{ color: "#fbe0b1", }} />
+                <FontAwesomeIcon className={burgerClass2} onClick={toggleMenu} icon={faBars} style={{ color: "#fbe0b1" }} />
+                <FontAwesomeIcon className={burgerClass} onClick={toggleMenu2} icon={faXmark} style={{ color: "#fbe0b1" }} />
             </NavBar>
         </div >
     )

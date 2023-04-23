@@ -6,6 +6,7 @@ import FooterHotel from '../../components/Footer/FooterHotel';
 import ImageContainer from '../../components/ImageContainer/ImageContainer';
 import WhereWeAtContainer from '../../components/WhereWeAtContainer/WhereWeAtContainer';
 import HotelNav from '../../components/Navbar/HotelNav';
+import ScrollTop from '../../components/ScrollTop/ScrollTop';
 
 const HomePage = () => {
 
@@ -17,6 +18,7 @@ const HomePage = () => {
             <ServicesBanner />
             <PrenotationBanner />
             <FooterHotel />
+            <ScrollTop />
         </div >
     )
 }

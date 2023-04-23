@@ -30,12 +30,16 @@ export const WWAcontainer = styled.div`
         padding: 2rem 2rem 3rem;
         color: #000;
         text-align: center;
+        text-transform: uppercase;
+        padding: 5rem;
+        line-height: 5rem;
         @media(max-width: 882px){
             font-size: 1.3rem;
-            text-align: justify;
         }
         @media(max-width: 600px){
             font-size: 0.9rem;
+            line-height: 1.1rem;
+            padding: 2rem;
         }
     }
 `

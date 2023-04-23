@@ -14,7 +14,7 @@ export const AroundImagesDiv = styled.div`
 export const ImgAround = styled.div`
     height: 400px;
 @media(max-width: 600px){
-        height: 300px;
+        height: 250px;
     }
 `
 

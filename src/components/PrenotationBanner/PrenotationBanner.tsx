@@ -6,7 +6,7 @@ export default function PrenotationBanner() {
         <PrenotationBannerContainer>
             <h5 className='' style={{ textAlign: "center", fontSize: "2rem", margin: "0 0 1rem 0" }}>PRENOTA DAL NOSTRO SITO UFFICIALE</h5>
             <BookingButton>
-                <BookingLink to={"#"}>verifica disponibiità e prenota ora - ottendendo così la miglior tariffa </BookingLink>
+                <BookingLink to={"https://wubook.net/wbkd/wbk/?lcode=1471869133"} target="_blank">verifica disponibiità e prenota ora - ottendendo così la miglior tariffa </BookingLink>
             </BookingButton>
         </PrenotationBannerContainer>
     )
