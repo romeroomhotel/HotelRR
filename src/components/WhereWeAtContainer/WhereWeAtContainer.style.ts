@@ -25,7 +25,7 @@ export const WWAcontainer = styled.div`
     }
 
     .WWAp{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         background-color: RGBA(251,224,177,0.9);
         padding: 2rem 2rem 3rem;
         color: #000;
